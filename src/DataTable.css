@@ -1,0 +1,44 @@
+.data-table-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .DataTable-navbar {
+    background-color: #1877f2; /* blue for MainPage's navbar */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .facebook-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .facebook-table th {
+    background-color: #1877f2; /* Facebook's blue color */
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .facebook-table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+  }
+  
+  .facebook-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  .facebook-table tr:nth-child(odd) {
+    background-color: #fff; /* White background for odd rows */
+  }
+  

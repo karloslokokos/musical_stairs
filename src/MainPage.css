@@ -1,0 +1,51 @@
+.MainPage-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .MainPage-navbar {
+    background-color: #1877f2; /* blue for MainPage's navbar */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .MainPage-logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .MainPage-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .MainPage-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .MainPage-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .MainPage-content a {
+    display: inline-block;
+    background-color: #1877f2;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .MainPage-content a:hover {
+    background-color: lightblue; /* Slightly darker red on hover */
+  }
+  
