@@ -1,17 +1,22 @@
 import React from 'react';
-import './App.css';
-import DataTable from './DataTable';
-
+import './styles/App.css';
+import DataTable from './Components/DataTable';
+import MusicVisualiser from './Components/MusicVisualiser';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MainPage from './MainPage';
+import MainPage from './Components/MainPage';
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/main_page" element={<MainPage />} />
-          <Route path="/data_table" element={<DataTable />} />
+          <Route path="/MainPage" element={<MainPage />} />
+          <Route path="/DataTable" element={<DataTable />} />
+          <Route path="/MusicVisualiser" element={<MusicVisualiser />} />
+          {/* <Route path="/BasicExample" element={<BasicExample />} /> */}
+
+
+
         </Routes>
       </div>
     </Router>
@@ -19,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+

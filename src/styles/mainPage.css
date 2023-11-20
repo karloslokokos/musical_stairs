@@ -3,7 +3,7 @@
   }
   
   .MainPage-navbar {
-    background-color: #1877f2; /* blue for MainPage's navbar */
+    background-color: transparent; /* blue for MainPage's navbar */
     color: #ffffff; /* White text */
     padding: 10px;
     text-align: center;
